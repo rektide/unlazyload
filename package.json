@@ -1,0 +1,26 @@
+{
+	"name": "unlazyload",
+	"version": "1.0.0",
+	"description": "Transition content to `loading=eager`",
+	"main": "auto.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/unlazyload"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "MIT",
+	"module": "auto.js",
+	"esm": true,
+	"@std/esm": {
+		"cjs": {
+			"namedExports": true
+		}
+	},
+	"dependencies": {
+		"deferrant": "^1.3.0"
+	}
+}
